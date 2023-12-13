@@ -1,0 +1,20 @@
+.bg2{
+    background-color: rgb(233, 216, 248);
+}
+.bg1{
+    background-color: rgb(180, 155, 204);}
+
+.placeholder{
+    color:blaclk
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.lobster{
+    font-family: 'Lobster', cursive;
+}

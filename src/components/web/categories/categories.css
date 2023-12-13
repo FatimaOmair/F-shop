@@ -1,0 +1,38 @@
+
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.swiper{
+    padding: 50px;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: blueviolet;
+}
+.swiper-custom-pagination, .swiper-pagination-clickable{
+text-align: center;
+}
+
+.swiper-button-prev,.swiper-button-next{
+    background-color: #fff;
+    width:30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 20px !important;
+    align-items: center;
+    color: black;
+}
+
+a h2{
+    text-align: center;
+    color: black;
+}
+

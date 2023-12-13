@@ -1,0 +1,20 @@
+
+ nav{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+height:100px;}
+  
+
+.profile{
+    display:flex;
+    height: 100vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
