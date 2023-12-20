@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useFormik } from "formik";
@@ -21,8 +19,7 @@ export default function Review() {
     try {
       const { data } = await axios.post( `${import.meta.env.VITE_API_URL}/products/${productId}/review`,
         comment,
-        { headers: { Authorization: `Tariq__${token}` } }
-      );
+        { headers: { Authorization: `Tariq__${token}` } }  );
 
       console.log(data);
 

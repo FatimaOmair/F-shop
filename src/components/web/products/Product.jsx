@@ -90,8 +90,8 @@ export default function Product() {
             </div>
           ))}
         </div>
-        <div className="create_Review d-flex justify-content-center ">
-        <Link className={'text-decoration-none d-flex bg-info py-3 px-2 mb-2 rounded text-black'} to={`products/:productId/review`}>Add your feedback!</Link>
+        <div className=" d-flex justify-content-center ">
+        <Link className={'text-decoration-none d-flex bg-info py-3 px-2 mb-2 rounded text-black'} to={`review`}>Add your feedback!</Link>
         </div> 
    </div>
 
