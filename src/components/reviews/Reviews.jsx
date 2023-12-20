@@ -93,7 +93,7 @@ export default function Review() {
           className="p-4" encType="multipart/form-data">
           {renderInputs}
 
-          <div className="input-group my-4 d-block text-center  ">
+          <div className="input-group  d-block text-center  my-5">
             <input type="submit" className=" text-black bg-info border-0 rounded p-2 " value="my Feedback"/>
           </div>
         </form>
