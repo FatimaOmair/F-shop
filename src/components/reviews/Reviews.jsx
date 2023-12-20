@@ -1,40 +1,4 @@
-// import axios from 'axios';
-// import React, { createContext } from 'react'
-// import { useQuery } from 'react-query';
-// import { useParams } from 'react-router-dom';
 
-// export default function Reviews() {
-
-//     const {productId} = useParams();
-  
-
-  
-//   const CreateReview = async () => {
-//     const token =localStorage.getItem('userToken')
-//     //console.log(token)
-//     const  {data}  = await axios.post(`${import.meta.env.VITE_API_URL}/products/${productId}/review`,
-//     {comment},
-//     {rating},
-//     { headers: { Authorization: `Tariq__${token}` } });
-
-//     console.log(data)
-//     //console.log(data.products);
-//     return data.product;
-//   };
-//   const { data, isLoading } = useQuery("review", CreateReview);
-
-  
-//   if (isLoading) {
-//     return <h2>isLoading...</h2>;
-//   }
-
-//   return (
-//     <div>
-     
-// ggg
-//     </div>
-//   )
-// }
 
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";

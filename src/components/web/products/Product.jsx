@@ -17,7 +17,7 @@ export default function Product() {
     const  {data}  = await axios.get(`${import.meta.env.VITE_API_URL}/products/${productId}`);
 
     console.log(data)
-    //console.log(data.products);
+   
     return data.product;
   };
   const { data, isLoading } = useQuery("product", getProduct);
