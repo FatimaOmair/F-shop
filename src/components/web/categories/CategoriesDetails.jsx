@@ -24,7 +24,7 @@ export default function CategoriesDetails() {
 
   {data.length?data.map((product)=>
   
-  <div className="product  col-md-4" key={product._id}>
+  <div className="product  " key={product._id}>
 
     <div className="card bg-black m-auto " style={{width: '18rem', height:'35rem'}}>
    <img src={product.mainImage.secure_url} alt="" className='img-thumbnail w-100' />
@@ -36,7 +36,9 @@ export default function CategoriesDetails() {
 
     
   </div>
+  
   ):<h2>No product</h2>}
     </div>
+   
   )
 }

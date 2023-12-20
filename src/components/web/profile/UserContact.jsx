@@ -8,8 +8,8 @@ export default function UserContact() {
        }
     
   return (
-    <div className="user-contact  text-center ">
-    <h6 className='text-white'>{userData!=null?.email?userData.email:<h2></h2>}</h6>  
+    <div className="user-contact  text-center p-5">
+    <h6 className='text-white border  btn'>{userData!=null?.email?userData.email:<h2></h2>}</h6>  
     </div>
   )
 }

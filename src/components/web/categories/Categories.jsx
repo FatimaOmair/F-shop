@@ -50,7 +50,7 @@ if(isLoading){
 }
   return (
       
-<div className='bg1 lobster py-5'>
+<div className=' lobster py-5'>
     <div className="container ">
       {/* <div className="row">
       {categories.length?categories.map((category)=>

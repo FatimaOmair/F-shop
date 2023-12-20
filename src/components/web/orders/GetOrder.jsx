@@ -4,7 +4,7 @@ import { useQuery } from 'react-query';
 export default function Orders() {
   let token = localStorage.getItem("userToken")
   const getOrder =async ()=>{
-  const {data} = await axios.get("https://ecommerce-node4.vercel.app/order",
+  const {data} = await axios.get(`${import.meta.env.VITE_API_URL}/order`,
   { headers: { Authorization: `Tariq__${token}` } });
   return data;
   }

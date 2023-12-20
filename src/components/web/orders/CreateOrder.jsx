@@ -120,10 +120,10 @@ export default function CreateOrder() {
             <h2 className=" text-center ">CreateOrder</h2>
             <form onSubmit={formik.handleSubmit} className="p-4">
               {renderInputs}
-              <div className="input-group my-4 d-block m-auto w-50 ">
+              <div className="input-group my-4 d-block text-center ">
                 <input
                   type="submit"
-                  className="submit btn btn-success m-auto w-50"
+                  className="submit btn btn-success "
                   disabled={!formik.isValid}
                   value="Create Order"
                   
